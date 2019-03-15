@@ -1,0 +1,10 @@
+TODO:
+- account class must be named Account
+- Must contain two constructors:
+    public Account() -- noargs: set initial balance to 0.00
+    public Account(double initial_deposit)
+- Must contain three methods:
+    public void depositFunds( double funds ) -- deposits funds
+    public double withdrawFunds( double funds ) -- must not allow an overdraft
+    public double getBalance() -- gets current balance
+
